@@ -5,3 +5,19 @@ This Repository contains Template for developing backend applications using Node
 In the Root Directory it contains src folder and other files such as package.json and package-lock.json .
 
 package.json and package-lock.json consists of the packages thats used and versions of those packages respectively
+
+In the root directory `src` directory consists various other directories required to implement the logic of the backend 
+
+Below list shows the structure of the `src` directory
+
+* `src`
+    * `config`
+    * `controllers`
+    * `middlewares`
+    * `migrations`
+    * `models`
+    * `routes`
+    * `seeders`
+    * `services`
+    * `utils`
+    * index.js
