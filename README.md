@@ -44,7 +44,9 @@ Below list shows the structure of the `src` directory
 * Migrations are used maintain the versions of the databases
 * These are very helpful in maintaining different versions of the databases if the project is shared among a team
 * The below command is used to apply the migrations to database.
-```npx sequelize db:migrate```
+```npx 
+sequelize db:migrate
+```
 * This command migrates all the migrations that are generated
 * The cecks applied in the migrations file provides __DataBase__ level constraints.
 
