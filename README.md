@@ -22,4 +22,10 @@ Below list shows the structure of the `src` directory
     * `utils`
     * index.js
 ---
-> The above directory structure follows * _M V C_ (Model View Controller)* Architecture and it's helpful in maintaining more cleaner and segregated code
+> The above directory structure follows ** _M V C_ (Model View Controller)** Architecture and it's helpful in maintaining more cleaner and segregated code
+--
+# `config`
+    * This directory consists all the configuration files . Configuration files are used for configuration of some modules that have been used or to configure some libraries.
+    * `server-config.js` consists code to configure the **_dotenv_** package to efficienty make use of the environment variables.
+    * `logger-config.js` consists code to configure the logger using **_winston_** package.
+  
