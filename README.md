@@ -44,8 +44,8 @@ Below list shows the structure of the `src` directory
 * Migrations are used maintain the versions of the databases
 * These are very helpful in maintaining different versions of the databases if the project is shared among a team
 * The below command is used to apply the migrations to database.
-```npx 
-sequelize db:migrate
+```
+npx sequelize db:migrate
 ```
 * This command migrates all the migrations that are generated
 * The cecks applied in the migrations file provides __DataBase__ level constraints.
@@ -55,7 +55,9 @@ sequelize db:migrate
 * Models repository contains the fields that are present in a particular table
 * Moreover , some checks in the models provides __JavaScript__ level constraints
 * The below command is used to generate a model.
-   ```npx sequelize model:generate --name <name-of-model> --attributes <attribute-name>:<data-type>,.....```
+   ```
+   npx sequelize model:generate --name <name-of-model> --attributes <attribute-name>:<data-type>,.....
+   ```
 
 ## 6. repositories
 * Repositories contains the functions to perform database operations
@@ -72,9 +74,13 @@ sequelize db:migrate
 ## 8. seeders
 * This directory is used to feed some initial data to a table inside the database.
 * The below command is used to generate a seed file.
-```npx sequelize seed:generate --name <name-of-seed>```
+```
+npx sequelize seed:generate --name <name-of-seed>
+```
 * This commands creats a seed file under `seeders` directory and to apply those seeded data into the corresponding table use the following command
-  ```npx sequelize db:seed --seed <name-of-seedfile-generated```
+  ```
+  npx sequelize db:seed --seed <name-of-seedfile-generated>
+  ```
 
 ## 9. services
 * This directory contains all the logical part of the server .
