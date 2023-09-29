@@ -55,9 +55,9 @@ npx sequelize db:migrate
 * Models repository contains the fields that are present in a particular table
 * Moreover , some checks in the models provides __JavaScript__ level constraints
 * The below command is used to generate a model.
-   ```
-   npx sequelize model:generate --name <name-of-model> --attributes <attribute-name>:<data-type>,.....
-   ```
+```
+npx sequelize model:generate --name <name-of-model> --attributes <attribute-name>:<data-type>,.....
+```
 
 ## 6. repositories
 * Repositories contains the functions to perform database operations
