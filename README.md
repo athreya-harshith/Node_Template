@@ -21,3 +21,5 @@ Below list shows the structure of the `src` directory
     * `services`
     * `utils`
     * index.js
+---
+> The above directory structure follows * _M V C_ (Model View Controller)* Architecture and it's helpful in maintaining more cleaner and segregated code
