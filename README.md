@@ -78,9 +78,9 @@ npx sequelize db:migrate
 npx sequelize seed:generate --name <name-of-seed>
 ```
 * This commands creats a seed file under `seeders` directory and to apply those seeded data into the corresponding table use the following command
-  ```
-  npx sequelize db:seed --seed <name-of-seedfile-generated>
-  ```
+```
+  npx sequelize db:seed --seed <name-of-seedfile-generated> 
+```
 
 ## 9. services
 * This directory contains all the logical part of the server .
