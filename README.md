@@ -30,3 +30,9 @@ Below list shows the structure of the `src` directory
 * `server-config.js` consists code to configure the **_dotenv_** package to efficienty make use of the environment variables.
 * `logger-config.js` consists code to configure the logger using **_winston_** package.
   
+## 2. controllers
+* Controllers are the repository layers that communicates to `services` by calling the required functions that are present in `services` . 
+* Controllers recieve the results after processing some task by `services` and structure the response and return them
+  
+## 3. middlewares
+  
