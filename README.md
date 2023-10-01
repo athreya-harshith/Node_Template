@@ -202,4 +202,4 @@ localhost:<PORT_NUMBER>/api/v1/info
 * This indicates the server is up and ready to accept the requests.
 
 
-![ScreenShots](https://github.com/athreya-harshith/Node_Template/blob/master/images/info_api.png)
+![ScreenShots](https://github.com/athreya-harshith/Node_Template/blob/master/images/info_api.png){:height="36px" width="36px"}.
