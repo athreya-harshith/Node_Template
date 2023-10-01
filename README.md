@@ -120,3 +120,62 @@ node --watch src/index.js
 ```
 * This commands starts the server and the port number in which the server is up will be displayed in the terminal.
 <hr>
+
+## Connecting the DataBase.
+* The `config.json` looks like this initially without any setup.
+```json
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
+```
+* In order to connect to the database , in `development` environment, make the corresponding changes to the `development` section of `config.js`
+* Fill __username__ , __password__ , __database__ in the first three fields respectively.
+* Provide __host__ IP address or else use __127.0.0.1__ (localhost) if the database is in the local system.
+* __dialect__ is the name of database ex : mariadb, mysql,oracledb etc..
+* After setting up the required fields in the `development` environment , config.json show look similar to this.
+```json
+{
+  "development": {
+    "username": "root",
+    "password": "someDbPassword",
+    "database": "exampleDatabase",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
+```
+
