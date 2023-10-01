@@ -184,3 +184,19 @@ node --watch src/index.js
 npx sequelize db:create
 ```
 * This command creates a new database with the name mentioned in the `development` environment of the `config.json`.
+  
+## Testing Server Status
+* To know whether the server is working well , open the postman and send a **__GET__** request to the following route.
+```route
+localhost:<PORT_NUMBER>/api/v1/info
+```
+* This will send a response object .
+```json
+{
+    "success": true,
+    "message": "API is live",
+    "error": {},
+    "data": {}
+}
+```
+* This indicates the server is up and ready to accept the requests.
