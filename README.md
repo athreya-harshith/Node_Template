@@ -178,4 +178,9 @@ node --watch src/index.js
   }
 }
 ```
-
+* This `config.json` contains some sensitive information regarding the project such as __database password__ , __database name__ , __database host address__ , hence this is not pushed into the **github** to hide those information.
+* After setting-up the `config.json` , open the `src` directory of the project and run the following command.
+```
+npx sequelize db:create
+```
+* This command creates a new database with the name mentioned in the `development` environment of the `config.json`.
