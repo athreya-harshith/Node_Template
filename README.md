@@ -148,7 +148,7 @@ node --watch src/index.js
   }
 }
 ```
-* In order to connect to the database , in `development` environment, make the corresponding changes to the `development` section of `config.js`
+* In order to connect to the database , in `development` environment, make the corresponding changes to the `development` section of `config.json`
 * Fill __username__ , __password__ , __database__ in the first three fields respectively.
 * Provide __host__ IP address or else use __127.0.0.1__ (localhost) if the database is in the local system.
 * __dialect__ is the name of database ex : mariadb, mysql,oracledb etc..
