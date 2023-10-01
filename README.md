@@ -202,4 +202,4 @@ localhost:<PORT_NUMBER>/api/v1/info
 * This indicates the server is up and ready to accept the requests.
 
 
-<img src="./images/info_api.png" width=300 height = 300>
+![ScreenShots](images/info_api.png)
