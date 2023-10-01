@@ -93,3 +93,30 @@ npx sequelize seed:generate --name <name-of-seed>
 ## 11. index.js
 * This is the starting file for the server.
 * It contains codes required to setup a server.
+  
+------
+## Setting-Up the Project Repository
+
+* To setup a Node.js Backend Project clone this repository and run the following commands.
+* Open the project folder inside the terminal.
+* Go to the root directory of the cloned repo and execute the following command.
+```
+npm install
+```
+* The above commands installs all the packages mentioned in the `package.json` and the versions of the packages will be according to the ones mentioned in `package-lock.json`.
+* In the root directory create a __.env__ file and add the environment variable **__PORT__**.
+```
+PORT=<some-free-port-available>
+```
+* Change the current directory to `src`  and run the following command.
+```
+npx sequelize init --force
+```
+* The `--force` option is to re-install the `config.json` in config folder , `migrations` , `models` and `seeders`.
+* This finishes the initial setup.
+* To run the server, execute the following command in the root directory of the project.
+```
+node --watch src/index.js
+```
+* This commands starts the server and the port number in which the server is up will be displayed in the terminal.
+<hr>
